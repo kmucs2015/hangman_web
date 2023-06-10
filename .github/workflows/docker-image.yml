@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag hangman:$(date +%s)
     - name: docker push
-      run: docker push ${{secrets.DOCKER_PUSH}}/hangman
+      run: docker push ${{secrets.DOCKER_USER}}/hangman
