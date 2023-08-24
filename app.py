@@ -175,6 +175,6 @@ def main():
 
 
 # python3 -m flask run --host=0.0.0.0 --port=4000
-app.secret_key = "Python Study"
+app.secret_key = "CNU Python Study"
 if __name__ == "__main__":
     app.run()
